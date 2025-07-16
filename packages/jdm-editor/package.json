@@ -1,10 +1,13 @@
 {
-  "name": "@gorules/jdm-editor",
+  "name": "@silverwork-solutions/jdm-editor",
   "version": "1.45.0",
   "description": "",
-  "author": "GoRules <hi@gorules.io> (https://gorules.io)",
-  "homepage": "https://github.com/gorules/jdm-editor",
+  "author": "Silverwork <adailey@silverwork-solutions.com> (https://silverwork-solutions.com)",
+  "homepage": "https://github.com/silverwork-solutions/jdm-editor",
   "license": "MIT",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [],
   "type": "module",
   "main": "./dist/index.js",
