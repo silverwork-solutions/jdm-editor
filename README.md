@@ -1,3 +1,17 @@
+## Silverwork FORK
+
+This is a fork of GoRules JDM Editor to allow Silverwork to modify, and have a backup.
+Currently it is modified to fix a bug where typing filter([], ) crashes the UI for boolean expressions.
+PR Submitted to GoRules to have them update it.
+
+How to publish as a package:
+* pnpm install (at the root)
+* cd packages/jdm-editor
+* increment version in package.json
+* export GH_PACKAGES_PAT=[insert GitHub Personal Access Token here with package writing permissions]
+* pnpm publish
+* May need to build entire monorepo at the root with pnpm build?
+
 ## JDM Editor
 
 JDM Editor is an open-source React component for crafting and designing JDM (JSON Decision model) files.
